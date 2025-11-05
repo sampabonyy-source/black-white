@@ -1,0 +1,205 @@
+body {
+    background-color: #ffc0cb;
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+    color: #333;
+}
+
+
+img {
+     border-radius: 30px; 
+}
+
+h2 {
+    background-color: #fff8f0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.logo{
+    height: auto;
+    width: 400px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height:1px;
+    margin:-1px;
+    padding:0;
+    overflow: hidden;
+    clip: rect (0, 0, 0, 0);
+    border: 0;
+}
+
+
+header {
+    background-color: #ffc0cb; 
+    padding: 40px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px 0;
+}
+
+
+.questionario-container {
+    background-color: white;
+    border-radius: 30px; 
+    padding: 30px; 
+    width: 90%; 
+    max-width: 400px; 
+    margin: 40px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.questionario-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.questionario-container p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.questionario-container label {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.questionario-container input[type="radio"] {
+    margin-right: 5px;
+}
+
+.questionario-container textarea {
+    width: calc(100% - 20px); /* Ajusta a largura para caber no padding */
+    padding: 10px; /* Aumenta padding */
+    border: 1px solid #ddd;
+    border-radius: 30px; /* Mais arredondado que o campo em si */
+    margin-top: 5px;
+    resize: vertical; 
+}
+
+.questionario-container button {
+    background-color: #fb7188; 
+    color: #fff8f0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.questionario-container button[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+}
+
+.questionario-container button:hover {
+    background-color: #ffc0cb; 
+}
+.questionario-container button[type="reset"]:hover {
+    background-color: #bbb;
+}
+
+
+.rating-stars {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+.rating-stars p {
+    margin: 0; 
+    font-size: 1.2em;
+}
+.rating-stars .avaliacao-estrelas label {
+    margin-right: 5px; 
+}
+
+
+.questionario-container {
+    background-color: white ; 
+    border-radius: 15px; 
+    padding: 30px; 
+    width: 90%; 
+    max-width: 700px; 
+    margin: 40px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.comentarios-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0b0b0b;
+}
+
+.comentarios-container article {
+   background-color: white;
+    border-radius: 30px; 
+
+    padding: 30px; 
+    width: 90%; 
+    max-width: 400px; 
+    margin: 40px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+footer {
+    background-color: #fff8f0;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 10px; 
+}
+
+
+.social-links {
+    list-style: none; 
+    margin: 0; 
+    padding: 15px 0; 
+    box-shadow: #0b0b0b;
+   transform: scale(1.05);
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+}
+
+
+.social-links li {
+    display: inline-block; 
+}
+
+
+.social-icon {
+    display: block; 
+    width: 40px; 
+    height:40x; 
+
+}
+
+
+.social-icon img {
+    width: 100%; 
+    height: 100%;
+    object-fit: contain; 
+    border-radius: 50%; 
+}
+
+
+.social-icon:hover {
+    transform: scale(1.1); 
+    box-shadow:rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.8em;
+    color: #555;
+    margin-top: 15px;
+}

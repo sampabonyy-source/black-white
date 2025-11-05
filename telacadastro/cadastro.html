@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+
+    <body>
+        
+        <section class="conteiner">
+        
+        
+            
+        <div class="moverimagem">
+
+        <img src="img/logo.jpeg" alt="bolo" class="img">
+
+        </div>
+
+        <div class="moverform">
+        <form method="post" action="processar_matricula.php" class="formulario">
+            <h1>Crie Sua Conta</h1>
+
+            <!--Nome do Cliente-->
+            <label for="nome" id="Nome1">Nome</label>
+            <input type="text" id="nome"  name="nome" required>
+
+            <!--Email-->
+            <label for="Email" id="email1">Email</label>
+            <input type="email" id="email"  required>
+
+            <!--CPF do Cliente-->
+            <label for="CPF" id="CPF1">CPF</label>
+            <input type="text" id="CPF" name="CPF"  maxlength="14" required>
+
+            <!--Crie sua senha-->
+            <label for="Senha" id="Senha">Senha</label>
+            <input type="password" id="Senha" name="Senha" required>
+
+            <!--Confirme sua senha-->
+            <label for="ConfirmeSuaSenha" id="ConfirmeSuaSenha">Confirme Sua Senha</label>
+            <input type="password"  id="ConfirmeSuaSenha" required>
+            
+            <!--Botão de Criar Conta-->
+            <a href="/telainicio/index.html">Criar Conta</a>
+            <a href="/telalogin/login.html">Já Possui uma conta ?</a>
+
+
+
+
+        </form>
+        </div>
+    </section>
+    </body>
+
+
+</html>

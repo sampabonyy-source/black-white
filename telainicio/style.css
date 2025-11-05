@@ -1,0 +1,231 @@
+h1 {
+  text-align: center;
+}
+
+.menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.menu input {
+  display: none;
+}
+
+.menu label {
+  background: #ff94a6;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.menu label::before {
+  content: "☰";
+  font-size: 20px;
+}
+
+.menu ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ff94a6;
+  list-style: none;
+  margin: 0;
+  padding: 5px 0;
+  border-radius: 4px;
+  width: 150px;
+}
+
+.menu ul li a {
+  display: block;
+  padding: 8px 12px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  background: #ffa9b7;
+}
+
+.menu input:checked + label + ul {
+  display: block;
+}
+
+.paginas {
+  margin-left: 410px;
+  font-size: large;
+  margin-top: -113px;
+}
+
+.cor {
+  color: #ff94a6;
+  font-family: Arial, sans-serif;
+}
+
+.caixadepesquisa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+  margin-left: 900px;
+  max-width: 100%;
+}
+
+.caixadepesquisa input[type="text"] {
+  padding: 12px 15px;
+  font-size: 16px;
+  width: 300px;
+  border: 2px solid #ccc;
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.caixadepesquisa input[type="text"]:focus {
+  border-color: #ff94a6;
+}
+
+.caixadepesquisa button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid #ff94a6;
+  background-color: #ff94a6;
+  color: white;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.caixadepesquisa button:hover {
+  background-color: #ff94a6;
+  border-color: #ff94a6;
+}
+
+
+.logotipo {
+  margin-top: -79px;
+  margin-left: 50px;
+}
+
+.bolos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  max-width: 100%;
+  width: 1500px;
+
+}
+
+.social {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+
+}
+
+.social2:hover {
+
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sabores2 {
+
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.sabores:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+img {
+
+  border-radius: 10px;
+  max-width: 100%;
+  margin-top: -30px;
+}
+
+body {
+  background: linear-gradient(to bottom, #fff8f0, #ffc0cb);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif
+}
+
+.textbolo {
+  display: flex;
+  flex-direction: column;
+  margin-left: -230px;
+}
+
+.texttrufa {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.textpote {
+margin-left: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.texttematicos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+}
+
+.textequipe {
+  position: absolute;
+  top: 1450px;
+  left: 559px;
+}
+
+.logotipo2 {
+  position: absolute;
+  top: 1450px;
+  left: 10px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 400px;
+  
+}
+
+.rodape {
+  position: absolute;
+  color: #000000;
+  text-align: center;
+  left: 497px;
+  padding: 10px 0;
+  font-family: sans-serif;
+  top: 1500px;
+}
+
+.pagamentos {
+
+  position: absolute;
+  top: 1475px;
+  left: 960px;
+
+}
+

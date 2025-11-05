@@ -1,0 +1,67 @@
+body {
+    background-color: pink;
+    color: #838383; 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+h2 {
+    background-color: floralwhite;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px; 
+    background-color: #FFC0CB;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em; 
+    color: #8B0000; 
+    background-color: #CCCCCC; 
+    padding: 10px; 
+    display: inline-block; 
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px; 
+    color: #D87093; 
+}
+
+.logo-principal {
+    width: 450px;
+    height: 200px;
+}
+
+.imagem-doce {
+    width: 300px;
+    height: 200px;
+}
+
+.icone-social {
+    width: 50px;
+    height: 50px;
+}
+
+main {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+p {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #333333;
+    font-size: 0.9em;
+}

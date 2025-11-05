@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <title>Avaliação - Site de Bolos</title>
+    <link rel="stylesheet" href="avaliacoes.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <h1>
+                <img src="/img/logo.jpeg" class="logo" alt="Cozinha da Unique - Logotipo">
+            </h1>
+        </div>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section class="questionario-container" aria-labelledby="satisfacao-titulo">
+            <h2 id="satisfacao-titulo">Questionário de Satisfação</h2>
+
+            <form>
+
+                <legend>Perguntas de Avaliação Rápida</legend>
+
+                <p>1. A entrega foi rápida?</p>
+                <label><input type="radio" name="entrega" value="sim"> Sim</label>
+                <label><input type="radio" name="entrega" value="nao"> Não</label>
+
+                <p>2. Você gostou do site?</p>
+                <label><input type="radio" name="site" value="sim"> Sim</label>
+                <label><input type="radio" name="site" value="nao"> Não</label>
+
+                <p>3. Você indicaria esse site para um amigo?</p>
+                <label><input type="radio" name="indicacao" value="sim"> Sim</label>
+                <label><input type="radio" name="indicacao" value="nao"> Não</label>
+
+                <p>4.Comentario opcional</p>
+                <label for="comentario-opcional"></label>
+                <textarea id="comentario-opcional" rows="3" cols="30"></textarea> </textarea>
+
+                <p>5. Deixe sua nota sobre a qualidade do site (Avaliação por estrelas):</p>
+                <div class="rating-stars">
+                    <p aria-hidden="true">&#11088; ⭐ ⭐ ⭐ ⭐</p>
+
+                    <legend class="visually-hidden">Nota de 1 a 5</legend>
+                    <label><input type="radio" name="nota" value="1"> 1</label>
+                    <label><input type="radio" name="nota" value="2"> 2</label>
+                    <label><input type="radio" name="nota" value="3"> 3</label>
+                    <label><input type="radio" name="nota" value="4"> 4</label>
+                    <label><input type="radio" name="nota" value="5"> 5</label>
+
+                </div>
+
+
+                <br><br>
+
+                <button type="submit">Enviar Avaliação</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </section>
+
+
+        <section class="comentarios-container" aria-labelledby="comentarios-titulo">
+            <h2 id="comentarios-titulo">Comentários de Clientes</h2>
+
+            <article>
+                <p><strong>Mariana:</strong> O bolo estava delicioso! Massa macia e recheio muito saboroso. </p>
+            </article>
+            <article>
+                <p><strong>Rafael:</strong> Entrega super rápida e embalagem cuidadosa. Recomendo!</p>
+            </article>
+            <article>
+                <p><strong>Ana:</strong> Atendimento muito atencioso, o bolo chegou quentinho e cheiroso.</p>
+            </article>
+            <article>
+                <p><strong>Lucas:</strong> Ótima apresentação e sabor acima do esperado. Vou comprar de novo.</p>
+            </article>
+            <article>
+                <p><strong>Beatriz:</strong> Encomenda perfeita para a festa — todo mundo elogiou o bolo!</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="social-links">
+            <li>
+                <a href="https://wa.me/5511960986689" target="_blank">
+                    <img src="/img/whatsapp.png" class=" social-icon" alt="WhatsApp Cozinha Unique">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.instagram.com/cozinha_unique/" target="_blank">
+                    <img src="/img/instagram.png" class="social-icon" alt="Instagram Cozinha Unique">
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.tiktok.com/@cozinhadaunique" target="_blank">
+                    <img src="/img/ttk.png" class="social-icon" alt="TikTok Cozinha Unique">
+                </a>
+            </li>
+        </ul>
+
+        <p>&copy; 2025 Cozinha da Unique. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

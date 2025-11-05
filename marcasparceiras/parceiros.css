@@ -1,0 +1,185 @@
+:root {
+    /* ... Variáveis de cor (MANTIDAS, com hover Cinza) ... */
+    --bg-color: #ffc0cb;
+    --h1-color: rgb(244, 19, 19); 
+    --h2-color: rgb(244, 19, 19); 
+    --nome-bolo-color: rgb(244, 19, 19); 
+    --hover-color: #808080; /* Cinza */ 
+    --sombra-h1: 2px 2px 5px rgb(90, 141, 252);
+}
+
+body {
+    background-color: var(--bg-color);
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h2, .nome-bolo, footer p, footer strong {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+/* ... resto do CSS de header, clearfix, etc. ... */
+header {
+    padding: 20px;
+    padding-top: 150px;
+    text-align: center;
+    position: relative; 
+}
+.header-logo {
+    width: 180px; 
+    height: 180px; 
+    object-fit: contain; 
+    position: absolute;
+    top: 20px; 
+    margin: 0 20px; 
+}
+
+.header-logo:nth-child(1) {
+    left: 0;
+}
+.header-logo:nth-child(2) {
+    right: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    color: var(--h1-color);
+    text-shadow: var(--sombra-h1);
+}
+
+h1:hover {
+    color: var(--hover-color); 
+    transform: scale(1.1);
+    text-shadow: 4px 4px 10px rgba(44, 78, 250, 0.6);
+}
+
+/* --- CSS ATUALIZADO PARA A LISTA --- */
+.lista-destaque {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 30px;
+    text-align: center;
+}
+
+.lista-destaque li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.2em;
+    color: #666666; /* Cor base do item da lista */
+    padding: 8px 15px;
+    border-bottom: 3px solid #999999;
+    transition: all 0.3s ease-in-out;
+}
+
+.lista-destaque li strong {
+    font-weight: 800;
+    /* MUDANÇA: Aplica a cor Vermelha ao texto principal da marca */
+    color: var(--h1-color); 
+    transition: color 0.3s ease-in-out;
+}
+
+.lista-destaque li:hover {
+    color: var(--hover-color);
+    transform: scale(1.05);
+    border-bottom-color: var(--hover-color); 
+}
+
+/* NOVO: Aplica o hover Cinza no strong (para quando o hover acontecer no li, mas estilizar o strong) */
+.lista-destaque li:hover strong {
+    color: var(--hover-color); 
+}
+/* ------------------------------------ */
+
+
+.marcas-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* ... Código das marcas-logo, receitas, etc. ... */
+.marca-logo {
+    width: 18%;
+    height: auto;
+}
+
+.receitas-section {
+    padding: 40px 0;
+}
+
+.receitas-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.receita img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(7, 186, 246, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.receita img:hover {
+    transform: scale(1.05);
+}
+
+.nome-bolo {
+    margin-top: 10px;
+    font-size: 20px;
+    color: var(--nome-bolo-color);
+}
+
+.nome-bolo:hover {
+    color: var(--hover-color);
+    transform: scale(1.1);
+    text-shadow: 0px 0px 8px rgba(255, 105, 180, 0.8);
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: var(--h2-color); /* VERMELHO */
+    text-align: center;
+}
+
+h2:hover {
+    color: var(--hover-color); /* CINZA */
+    transform: scale(1.1);
+    text-shadow: 0px 0px 8px pink;
+}
+
+footer {
+    background-color: var(--bg-color);
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    color: var(--h1-color);
+}
+
+footer p:hover {
+    color: var(--hover-color);
+}
+
+footer strong {
+    font-size: 1.2em;
+    color: var(--h1-color);
+}
+
+footer strong:hover {
+    color: var(--hover-color);
+}
