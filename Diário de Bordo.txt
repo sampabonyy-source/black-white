@@ -1,0 +1,15 @@
+Diário de Bordo
+
+16/10/2025
+Às 19h30 de hoje tivemos uma atividade diferente, na qual nossos colegas de classe, divididos em grupos, avaliaram a 1ª etapa do projeto.
+O objetivo foi entender a evolução do aprendizado. Houve diversos questionamentos e algumas observações, como a falta de mídia, especialmente um vídeo que ilustrasse a sagacidade da CEO ao formalizar as deliciosas receitas.
+Também percebemos a falta de padronização das cores escolhidas como referência do site. Visualmente, as cores exaltam perfeição, mas precisaríamos dos códigos corretos de cada cor para que a estrutura ficasse mais harmoniosa.
+
+Assim, tivemos mais uma reunião produtiva.
+
+23/10/2025
+No dia de hoje tivemos uma nova interação. Percebemos que seria necessário adicionar duas novas telas ao projeto: “Nossa Produção” e “Marcas Parceiras”.
+
+30/10/2025
+Hoje tivemos dificuldades em solucionar o botão do menu. Pesquisamos diversas ferramentas, mas o resultado final veio, enfim, com o uso da tag “checkbox toggle”, além do caractere especial das três barras para o visual.
+Em seguida, aplicamos o CSS para dar o acabamento final no botão.
